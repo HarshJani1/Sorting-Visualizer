@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.app {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.sorting-menu {
+    margin:90px;
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    position: absolute; /* Positioning the menu */
+    left: 20px; /* Adjust left position as needed */
+    top: 20px; /* Adjust top position as needed */
+    
+}
+
+.sorting-menu button {
+    margin: 5px 0; /* Adjust margin for vertical layout */
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    background: #007bff;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    
+}
+
+.sorting-menu button.selected {
+    color: white;
+    background-color: #0f3f9f;
+
+}
+
+.input-form {
+    margin-bottom: 20px; /* Adjust bottom margin */
+    width: 100%; /* Full width for the form */
+}
+
+.input-form input {
+    margin: 5px;
+    padding: 10px 12px; /* Increase padding for a better look */
+    font-size: 14px;
+    line-height: 20px;
+    color: #24292e;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: #5d91f0 0 10px 20px -10px;
+    width: calc(100% - 12px); /* Make input take full width minus padding */
+}
+
+.input-form input:focus {
+    border-color: #0366d6;
+    outline: none;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+
+.sorting-steps {
+    margin-top: 20px;
+}
+
+.sorting-steps button {
+    margin: 10px;
+}
+
+.input-form-btn{
+    margin:10px;
+    background: #007bff;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.stepsCss{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.steps-btn{
+    margin:10px;
+    background: #007bff;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
