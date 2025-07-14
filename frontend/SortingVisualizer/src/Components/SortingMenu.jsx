@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SortingMenu = ({ selectedSort, setSelectedSort }) => {
-    const sortingAlgorithms = ['bubble', 'selection', 'insertion','heap', 'merge', 'quick','bucket'];
+    const sortingAlgorithms = ['bubble', 'selection', 'insertion', 'heap', 'merge', 'quick', 'bucket', 'counting'];
 
     return (
         <div className="sorting-menu">
